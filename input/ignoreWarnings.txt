@@ -1,6 +1,45 @@
 == Suppressed Messages ==
 
-# Hier könnt ihr Warnungen aus dem QA-Report unterdrücken.
-# Kopiert dazu den Text der Warnung exakt in eine eigene Zeile.
-# Schreibt über jede unterdrückte Warnung einen Kommentar mit dem Grund.
-# Errors lassen sich nicht unterdrücken, die müsst ihr beheben.
+# CH Term 3.3.0 ist in der Lab-Vorlage vorgegeben.
+# Die Version wird bewusst beibehalten.
+The ImplementationGuide uses package ch.fhir.ig.ch-term#3.3.0 released on 2025-12-15, but the most recent appropriate version is 3.4.0. This reference is getting old and the more recent version should be considered
+
+# Das optionale IP-Statements-Fragment wird in diesem Lab-IG nicht benötigt.
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+
+# Eine Cross-Version-Analyse ist für dieses Lab nicht erforderlich.
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+
+# Die optionale Abhängigkeitstabelle wird auf der Startseite nicht verwendet.
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+
+# Die optionale globale Tabelle wird in diesem Lab nicht benötigt.
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+
+# Generierte Suchformular-Seite des IG Publishers.
+# HTML-Strukturwarnungen, die nicht aus unserem FSH-Code stammen.
+The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+
+# Generierte Suchformular-Seite: HTML-Strukturwarnung.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+
+# Generierte Suchformular-Seite: HTML-Strukturwarnung.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+
+# Generierte Suchformular-Seite: HTML-Strukturwarnung.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+
+# Generierte Suchformular-Seite: HTML-Strukturwarnung.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+
+# Generierte Suchformular-Seite: HTML-Strukturwarnung.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+
+# Generierte Suchformular-Seite: HTML-Strukturwarnung.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+
+# Generierte Suchformular-Seite: HTML-Strukturwarnung.
+The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+
+
